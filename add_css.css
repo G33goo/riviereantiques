@@ -1,0 +1,64 @@
+/* Personnalisation de l'affichage des prix */
+
+.woocommerce-Price-amount.amount {
+    color: #51E858 !important;
+      font-size: 22px;
+      font-weight: bold !important;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px black;
+  }
+  
+  .woocommerce-Price-currencySymbol {
+        color: #51E858 !important;
+  }
+  
+  /* Personnalisation de la taille des textes WooCommerce */
+  
+  .text-uppercase.text-xsmall {
+      font-size: 14px;
+  }
+  
+  .woocommerce-LoopProduct-link {
+      font-size: 18px;
+  }
+  
+  /* Extension de la taille interligne du menu principal */
+  
+  .menu li {
+      line-height: 150%;
+  }
+  
+  /* Modification des boutons d'ajout au panier */ 
+  
+  .single_add_to_cart_button {
+      border-radius:25px !important;
+  }
+  
+  .single_add_to_cart_button:hover {
+      background-color:#4CAF50 !important;
+          border-radius:25px !important;
+  }
+  
+  /* Modification des boutons d'ajout au panier dans les thumbs */
+  
+  .product_type_simple.add_to_cart_button.ajax_add_to_cart {
+      border-radius: 25px !important;
+  }
+  
+  .product_type_simple.add_to_cart_button.ajax_add_to_cart:hover {
+      background-color:#4CAF50 !important;
+      border-radius: 25px !important;
+  }
+  
+  /* Correctif boutons module Woocommerce "Dernières Nouveautés" */
+  
+  .actions.style_two {
+      background-color: transparent !important;
+      color: white !important;
+  }
+  .button-label {
+      color:white !important;
+  }
+  .button-label:hover {
+      color: black !important;
+  }
